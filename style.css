@@ -1,0 +1,31 @@
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #ffeead;
+  }
+.container > div:nth-child(1n){
+    background-color: aqua;
+    text-align: center;
+}
+.container > div:nth-child(3n){
+    background-color: rgb(252, 83, 128);
+    text-align: center;
+}
+.container > div:nth-child(2n){
+    background-color: rgb(58, 113, 252);
+    text-align: center;
+}
+.container > div:nth-child(4n){
+    background-color: rgb(252, 248, 24);
+    text-align: center;
+}
+.container .div5{
+    background-color: aqua;
+    text-align: center;
+}
+.container .div6{
+    background-color:rgb(252, 83, 128);
+    text-align: center;
+}
