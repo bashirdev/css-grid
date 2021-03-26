@@ -8,45 +8,19 @@
     <title>Document</title>
     <style>
         .container{
-            height:100%;
+            height:100vh;
             display: grid;
-            grid-template-columns: repeat(12, 1fr);
-            grid-template-rows: 50px  auto 50px;
-            grid-template-areas:
-             "h h h h h h h h h h h h"
-             "m m m c c c c c c c c c"
-             "f f f f f f f f f f f f "
-            
-            ;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(2, 1fr);
            
         }
-        .header{
-            color: #fff;
-            /* grid-column:2 / -1; */
-            grid-area: h;
-            
-        }
-        .footer{
-            /* grid-column:1 / -1; */
-            grid-area: f;
-        }
-        .content{
-            /* grid-column: 2 / -1;
-            height:100%; */
-            grid-area: c;
-        }
-        .menu{
-            /* grid-row: 1 / 3; */
-            grid-area:m;
-        }
+     
+      
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- <div class="header div1">HEADER</div>
-        <div class="menu div2">MENU</div>
-        <div class="content div3">CONTENT</div>
-        <div class="footer div4">FOOTER</div> -->
+      
         <div>1</div>
         <div>2</div>
         <div>3</div>
